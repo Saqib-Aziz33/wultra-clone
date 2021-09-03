@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="47px" viewBox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-bell-gray</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-bell-gray">
+            <circle id="Oval" fill="#D8D8D8" cx="23.5" cy="23.5" r="23.5"></circle>
+            <g id="notifications-button" transform="translate(14.000000, 12.000000)" fill-rule="nonzero" fill="#FFFFFF">
+                <path d="M9.72399964,22.8799992 C10.9823996,22.8799992 12.0119996,21.8503992 12.0119996,20.5919992 L7.43599973,20.5919992 C7.43599973,21.8503992 8.46559969,22.8799992 9.72399964,22.8799992 Z M17.1599994,16.0159994 L17.1599994,9.72399964 C17.1599994,6.17759977 14.7575995,3.31759988 11.4399996,2.51679991 L11.4399996,1.71599994 C11.4399996,0.800799971 10.6391996,0 9.72399964,0 C8.80879968,0 8.00799971,0.800799971 8.00799971,1.71599994 L8.00799971,2.51679991 C4.69039983,3.31759988 2.28799992,6.17759977 2.28799992,9.72399964 L2.28799992,16.0159994 L0,18.3039993 L0,19.4479993 L19.4479993,19.4479993 L19.4479993,18.3039993 L17.1599994,16.0159994 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

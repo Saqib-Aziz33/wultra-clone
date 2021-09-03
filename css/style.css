@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+:root{
+    --ff-pt-sans: 'PT Sans', sans-serif;
+    --clr-bg-blue: #053751;
+    --clr-bg-dark-blue: #04293c;
+    --clr-text-blue: #096799;
+    --clr-text-grey: rgba(0, 0, 0, 0.5);
+    --clr-white: #f1f2f6;
+    --clr-white-50: #f1f2f6CC;
+    --clr-white-90: #f1f2f6F2;
+    --clr-white-80: #f1f2f6CC;
+
+    --fs-p: 1.2rem;
+}
+
+/* utilities */
+.rounded-10{
+    border-radius: 10px;
+}
+.bg-blue{
+    background-color: var(--clr-bg-blue);
+}
+.bg-black{
+    background-color: black;
+}
+.bg-dark-blue{
+    background-color: var(--clr-bg-dark-blue);
+}
+.bg-white{
+    background-color: var(--clr-white) !important;
+}
+.text-blue{
+    color: var(--clr-text-blue);
+}
+.text-grey{
+    color: var(--clr-text-grey);
+}
+.text-white{
+    color: var(--clr-white);
+}
+.text-white-50{
+    color: var(--clr-white-50);
+}
+.text-white-90{
+    color: var(--clr-white-90);
+}
+.text-white-80{
+    color: var(--clr-white-80);
+}
+nav .text-white-50:hover{
+    color: var(--clr-white) !important;
+}
+.btn-white{
+    color: var(--clr-text-blue);
+    background-color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 15px 18px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 0.8rem;
+    border: 1px solid var(--clr-text-blue);
+}
+.btn-white:hover{
+    background-color: var(--clr-white-90);
+    color: var(--clr-text-blue);
+}
+.btn-blue{
+    background-color: var(--clr-text-blue);
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.btn-blue:hover{
+    filter: brightness(0.8);
+    background-color: var(--clr-text-blue);
+    color: #fff;
+}
+.my-6{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+
+
+/* main */
+body{
+    line-height: 1.7 !important;
+    font-family: var(--ff-pt-sans);
+}
+p{
+    font-size: var(--fs-p);
+}
+
+
+/* header */
+nav .logo{
+    width: 150px;
+}
+.fa-bars{
+    cursor: pointer;
+    display: none;
+}
+
+/* contact form */
+.contact-form input[type= text],input[type= email], textarea{
+    font-style: 1.1rem;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    margin: 6px 0;
+    width: 100%;
+    border: none;
+    background: white;
+    border: 1px solid black;
+    outline: none;
+    transition: all 0.5s ease;
+    opacity: 0.6;
+}
+.contact-form input:focus, textarea:focus{
+    background-color: var(--clr-white);
+}
+.fa{
+    font-size: var(--fs-p);
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: var(--clr-white-50);
+}
+
+
+
+
+
+
+/* media query */
+@media only screen and (max-width: 930px){
+    .fa-bars{
+        display: block;
+        position: relative;
+        z-index: 2;
+    }
+    ul.nav{
+        position: fixed;
+        top: 0;
+        right: -100vw;
+        bottom: 0;
+        width: 50vw;
+        min-width: 250px;
+        background-color: black;
+        flex-direction: column;
+        padding-top: 4rem;
+        transition: all 0.5s ease;
+    }
+    ul.nav.show{
+        right: 0;
+    }
+}
